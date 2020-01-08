@@ -8,6 +8,3 @@ rm -rf ./.git/*
 [[ -d "./.git_"$1 ]] || exit 1
 cp -r "./.git_"$1"/" "./.git/"
 echo ".git_"$1" loaded"
-
-
-
